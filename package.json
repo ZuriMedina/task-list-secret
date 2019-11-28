@@ -1,6 +1,6 @@
 {
-  "name": "task-list-secret",
-  "version": "1.0.0",
+  "name": "vue-todo-secret",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,13 +11,15 @@
   "license": "MIT",
   "repository": "https://github.com/ZuriMedina/task-list-secret.git",
   "dependencies": {
-    "core-js": "^3.4.3",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap-vue": "^2.1.0",
+    "core-js": "^3.3.2",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-plugin-eslint": "^4.1.0",
-    "@vue/cli-service": "^4.1.0",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
@@ -35,6 +37,11 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
     }
   },
   "browserslist": [

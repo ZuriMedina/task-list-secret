@@ -1,4 +1,4 @@
-# task-list-secret
+# vue-todo-secret
 
 ## Project setup
 ```
